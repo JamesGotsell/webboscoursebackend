@@ -17,6 +17,10 @@ const Logo = styled.h1`
     text-transform: uppercase;
     text-decoration: none;
     }  
+    @media (max-width: 1300px) {
+    margin: 0;
+    text-align: center;
+  }
 `;
 
 const StyledHeader = styled.header`
@@ -27,7 +31,7 @@ const StyledHeader = styled.header`
      justify-content: space-between;
      align-items: stretch;
      @media (max-width: 1300px) {
-         grid-template-columns: auto 1fr;
+         grid-template-columns: 1fr;
          justify-content: center;
      }
  }
